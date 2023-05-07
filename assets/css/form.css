@@ -1,0 +1,29 @@
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em 0;
+}
+
+.form-contato>input {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.form-contato>input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.form-contato>textarea {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  resize: vertical;
+}
+
+.form-contato>textarea:focus {
+  outline: none;
+  border-color: #000;
+}

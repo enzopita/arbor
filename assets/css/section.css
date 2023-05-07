@@ -1,0 +1,10 @@
+.section {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}

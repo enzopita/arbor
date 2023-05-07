@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arbor</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/card.css">
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/section.css">
+  <link rel="stylesheet" href="/assets/css/form.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <h1 class="navbar-title">Arbor</h1>
+      <p class="navbar-slogan">A marca que valoriza o meio ambiente.</p>
+    </div>
+    <div class="navbar-menu">
+      <a href="#sobre" class="navbar-item">Sobre nós</a>
+      <a href="#mudas-de-arvores" class="navbar-item">Mudas de árvores</a>
+      <a href="#horta-organica" class="navbar-item">Horta orgânica</a>
+      <a href="#contato" class="navbar-item">Contato</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Sobre a marca -->
+    <section id="sobre" class="section">
+      <h2 class="section-title">Sobre nós</h2>
+      <div class="section-content">
+        <p>
+          Fundada em 2023, a Arbor é uma marca que se preocupa com o meio ambiente e com a qualidade de vida das
+          pessoas. Nossa missão é incentivar a produção de alimentos saudáveis e a preservação das florestas e da
+          biodiversidade. Acreditamos que nossos clientes são parceiros nessa jornada rumo a um futuro mais sustentável
+          e consciente. Por isso, buscamos estabelecer um relacionamento de confiança e transparência, fornecendo
+          informações precisas sobre nossos produtos e serviços. Estamos sempre disponíveis para tirar dúvidas e ajudar
+          em tudo o que for preciso.
+        </p>
+      </div>
+    </section>
+
+    <!-- Mudas de árvores -->
+    <section id="mudas-de-arvores" class="section">
+      <h2 class="section-title">Mudas de árvores</h2>
+      <div class="section-content">
+        <p style="margin-bottom: 2rem;">
+          As mudas de árvores são fundamentais para o meio ambiente e para o desenvolvimento sustentável. Elas
+          contribuem para a preservação e recuperação de ecossistemas, além de garantirem a segurança hídrica e o
+          equilíbrio climático. A qualidade das mudas é um fator determinante para o sucesso do plantio, e por isso é
+          importante escolher uma empresa que se preocupa com a qualidade das suas mudas. A Arbor oferece mudas de
+          árvores produzidas com técnicas agrícolas sustentáveis, garantindo que suas árvores cresçam fortes e
+          saudáveis.
+        </p>
+
+        <!-- Cards sobre as mudas de árvores -->
+        <div class="cards">
+          <!-- O conteúdo aqui é renderizado via JavaScript para maior flexibilidade. -->
+          <!-- O script está localizado em: /assets/scripts/produtos.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Hortas orgânicas -->
+    <section id="horta-organica" class="section">
+      <h2 class="section-title">Horta orgânica</h2>
+      <p>
+        As hortas orgânicas são espaços de cultivo que valorizam a saúde do solo, a biodiversidade e o meio ambiente.
+        Por meio de técnicas agrícolas naturais, sem o uso de agrotóxicos e outros produtos químicos sintéticos, a
+        agricultura orgânica incentiva a diversidade de culturas e garante alimentos saudáveis e seguros. Além disso, as
+        hortas orgânicas podem ser cultivadas em qualquer espaço disponível, sendo uma atividade educativa, terapêutica
+        e que contribui para um desenvolvimento sustentável.
+      </p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+      <h2 class="section-title">Contato</h2>
+      <div class="section-content">
+        <p>
+          Entre em contato conosco para tirar dúvidas, fazer sugestões ou solicitar um orçamento. Estamos sempre
+          disponíveis para ajudar no que for preciso.
+        </p>
+        <form class="form-contato">
+          <label for="email">E-mail*</label>
+          <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+          <label for="message">Mensagem*</label>
+          <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+
+          <button type="submit" class="button">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright Arbor 2023 - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Carrega os scripts que tornam a página funcional -->
+  <script src="/assets/scripts/produtos.js"></script>
+  <script src="/assets/scripts/contato.js"></script>
+</body>
+
+</html>
