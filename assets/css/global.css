@@ -295,4 +295,8 @@ a {
   .product-image {
     max-width: 100%;
   }
+
+  .shipping-form-input>input {
+    width: 100%;
+  }
 }
